@@ -1,0 +1,20 @@
+Holo Snek Windows release - third-party notices
+
+The Holo Snek player, image-carried ImageRuntime interpreter, game program,
+generated game images, documentation and corresponding project source are
+licensed under GPL-3.0-only. See the accompanying LICENSE and source.zip.
+
+The Windows release also redistributes the Microsoft .NET runtime and Windows
+Desktop framework needed by this self-contained application. Those external
+framework components retain their original licenses. The official distribution
+license and third-party notices are copied alongside this file as
+DOTNET-LICENSE.txt and DOTNET-THIRD-PARTY-NOTICES.txt. Their inclusion does not
+relicense those components under the project's GPL license.
+
+Upstream source and notices:
+https://github.com/dotnet/runtime
+https://github.com/dotnet/winforms
+https://github.com/dotnet/wpf
+
+Python, NumPy and Pillow are source-build and authoring dependencies. They are
+not included in the ready-to-play Windows package and are not required to play.

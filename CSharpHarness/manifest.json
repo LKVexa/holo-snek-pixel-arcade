@@ -1,0 +1,1249 @@
+{
+  "version": "0.4.0",
+  "release_sha256": "8ff71e7e33e9130f06fc7e488f1a75ad14481da0a3a6cd18e32e141a3cb69bf3",
+  "runtime_sha256": "58937916bab2f2195f2e8a55f8c3486aca3bf1b6c5621d1ddfe3e5b0ffb3408a",
+  "execution_validation": {
+    "checks": [
+      {
+        "format": "tiff",
+        "resume_and_steer": "passed",
+        "runtime_and_program_preserved": true,
+        "step": "passed"
+      },
+      {
+        "format": "gif",
+        "resume_and_steer": "passed",
+        "runtime_and_program_preserved": true,
+        "step": "passed"
+      }
+    ],
+    "environment": "PATH limited to Windows System32; no installed dotnet/Python command required",
+    "status": "passed",
+    "ui": "constructed_and_refreshed",
+    "ui_receipt": {
+      "arrow_keys": [
+        "Up",
+        "Right",
+        "Up"
+      ],
+      "automatic_timer_refreshes": 3,
+      "default_game_selected": true,
+      "export_pair_verified": true,
+      "final_state": {
+        "direction": [
+          0,
+          -1
+        ],
+        "food": [
+          9,
+          6
+        ],
+        "game_over": false,
+        "height": 12,
+        "score": 0,
+        "seed": 14,
+        "snake": [
+          [
+            7,
+            4
+          ],
+          [
+            7,
+            5
+          ],
+          [
+            6,
+            5
+          ]
+        ],
+        "tick": 3,
+        "width": 20
+      },
+      "first_launch_auto_started": true,
+      "ignored_key_did_not_block_turn": true,
+      "keyboard_handler_exercised": true,
+      "pause_resume_verified": true,
+      "program_preserved": true,
+      "refresh_executed": true,
+      "runtime_location": "image pixels",
+      "runtime_preserved": true,
+      "runtime_sha256": "58937916bab2f2195f2e8a55f8c3486aca3bf1b6c5621d1ddfe3e5b0ffb3408a",
+      "ui_constructed": true
+    }
+  },
+  "files": [
+    {
+      "path": "CSharpHarness/Accessibility.dll",
+      "sha256": "8a445cfd0d566a0bfbebd30ba3cd1bab449c73f22f40dc4aba499bf96a2f0850"
+    },
+    {
+      "path": "CSharpHarness/clretwrc.dll",
+      "sha256": "7a2186201c87bbc597a1b8b26facd88e68f03be4c4a4211fd65cc6595c72e45b"
+    },
+    {
+      "path": "CSharpHarness/clrgc.dll",
+      "sha256": "65e2f97d263824bfb9f75f92e66ebd22229aaf3a5faddef9345811d856c8840e"
+    },
+    {
+      "path": "CSharpHarness/clrgcexp.dll",
+      "sha256": "23a8050ec68542989b6da6cc906a90faf8a14e6416fd2871a260b781b1c374ae"
+    },
+    {
+      "path": "CSharpHarness/clrjit.dll",
+      "sha256": "0749d8fc8e944d0576e1bb47120f87add8f875e5cd8968995633063fc79256f6"
+    },
+    {
+      "path": "CSharpHarness/coreclr.dll",
+      "sha256": "128aee8c62a673d64739e585e3876b61133571cec83a46240a62581d5465639b"
+    },
+    {
+      "path": "CSharpHarness/createdump.exe",
+      "sha256": "315307159925d33eb604186a512901d080ecfc4cd8b8198030a7d398c6af2b0b"
+    },
+    {
+      "path": "CSharpHarness/cs/Microsoft.VisualBasic.Forms.resources.dll",
+      "sha256": "58f4c081f6d9f5f593131102d6ed27ddb11d5313558cf6c635ca669fcd95f6d9"
+    },
+    {
+      "path": "CSharpHarness/cs/System.Windows.Forms.Design.resources.dll",
+      "sha256": "0994e3c3f74912661445fff135c96cd46b4cc116a5f35f398cb10dee4a9ca219"
+    },
+    {
+      "path": "CSharpHarness/cs/System.Windows.Forms.Primitives.resources.dll",
+      "sha256": "1743d23e99baf949f5f2eefc49b7efd9c2b7c1790d877c980a556cc19a307144"
+    },
+    {
+      "path": "CSharpHarness/cs/System.Windows.Forms.resources.dll",
+      "sha256": "bcbbafc8314cc2bbb65d4853e19b699a9297e31d55d78cf499e485f560c01a47"
+    },
+    {
+      "path": "CSharpHarness/de/Microsoft.VisualBasic.Forms.resources.dll",
+      "sha256": "c9ef37e020f2f740642366cc429617a87dc02aa9552673f1f7f2880fce22e870"
+    },
+    {
+      "path": "CSharpHarness/de/System.Windows.Forms.Design.resources.dll",
+      "sha256": "cbb085135f8f5e4e24a1a827e803df6543944ffa99a661ae201faf623454ae25"
+    },
+    {
+      "path": "CSharpHarness/de/System.Windows.Forms.Primitives.resources.dll",
+      "sha256": "5b972c6e5dd105a1c5c5ce195df5502f37e71e690b7c2c898292834600358218"
+    },
+    {
+      "path": "CSharpHarness/de/System.Windows.Forms.resources.dll",
+      "sha256": "436a39dce00bbc57230838c01df103ee327f9c7e0b87ab3086c96506d9f98d4f"
+    },
+    {
+      "path": "CSharpHarness/DOTNET-LICENSE.txt",
+      "sha256": "d7a68596ab69b06f51ca278a6545148e4269a9381c26d597c13df5d88e08cf5b"
+    },
+    {
+      "path": "CSharpHarness/DOTNET-THIRD-PARTY-NOTICES.txt",
+      "sha256": "6d15e10a101c6bfff2ab4429ed061bf76c456fc4b23ad6b03e0d0f8377148a21"
+    },
+    {
+      "path": "CSharpHarness/es/Microsoft.VisualBasic.Forms.resources.dll",
+      "sha256": "38fa5214a2f1599e55aad96d3259445171c39addd29489ccbeaca971d8faab0d"
+    },
+    {
+      "path": "CSharpHarness/es/System.Windows.Forms.Design.resources.dll",
+      "sha256": "c191ddca7f677444c45243929b98cb103cdf411ea8e631b6f01b67e05c2050a7"
+    },
+    {
+      "path": "CSharpHarness/es/System.Windows.Forms.Primitives.resources.dll",
+      "sha256": "e46373f6b706c6a55a1682aecc9737e460d841520a5b8957dbb6f8262f96095d"
+    },
+    {
+      "path": "CSharpHarness/es/System.Windows.Forms.resources.dll",
+      "sha256": "40bdebbf55660bcc6715ef0946719225af5d8fdc2a26975b9812698ebe70e981"
+    },
+    {
+      "path": "CSharpHarness/fr/Microsoft.VisualBasic.Forms.resources.dll",
+      "sha256": "35c33db9cb7e1a5a6a2895ce8c074fbac01ed552366d77f5ba246f8c137a283a"
+    },
+    {
+      "path": "CSharpHarness/fr/System.Windows.Forms.Design.resources.dll",
+      "sha256": "e4c892eecdfaf14b1007cdb7e24055e2cff1c2839a1b70991113d6a40bd0ece8"
+    },
+    {
+      "path": "CSharpHarness/fr/System.Windows.Forms.Primitives.resources.dll",
+      "sha256": "307d5023246b3e27a4ab0f97cc6305ead87e11caa8ff5d65e44834c8db6ab152"
+    },
+    {
+      "path": "CSharpHarness/fr/System.Windows.Forms.resources.dll",
+      "sha256": "08c147ddc0e84e554215e723f633dd96e8ff0dd1158d4210521b6a64b2a1d7b0"
+    },
+    {
+      "path": "CSharpHarness/HoloPlayer.deps.json",
+      "sha256": "7fec777134fa4e68ec5f5a7506c2c9820aa5155a15cbf47b98be23947239c31e"
+    },
+    {
+      "path": "CSharpHarness/HoloPlayer.dll",
+      "sha256": "65d7947017dcb74d51ba2aa0439ea6aa5133740d7eba8352add018f824bff04f"
+    },
+    {
+      "path": "CSharpHarness/HoloPlayer.exe",
+      "sha256": "f37142447aa9224fbee1efbde3a8c9445188ee12a55aab92a4609f5b107ecb53"
+    },
+    {
+      "path": "CSharpHarness/HoloPlayer.runtimeconfig.json",
+      "sha256": "2556f3e7cb7f562c3139a4c08ea55a28fba36f396a1ff2e49f1aa66aa27adaa3"
+    },
+    {
+      "path": "CSharpHarness/hostfxr.dll",
+      "sha256": "838591885c5396fb0588a3aedc2f3e841d3afc67570868b1bce615264005a44c"
+    },
+    {
+      "path": "CSharpHarness/hostpolicy.dll",
+      "sha256": "e92a2e71eeeaf7c574e905935b3e3724ef29bade44317659dbe06f505e99dbe0"
+    },
+    {
+      "path": "CSharpHarness/it/Microsoft.VisualBasic.Forms.resources.dll",
+      "sha256": "16738775d27c1f9d62ec17768116f2f754109952b84da6ddba41cb3a41f45675"
+    },
+    {
+      "path": "CSharpHarness/it/System.Windows.Forms.Design.resources.dll",
+      "sha256": "391d9774dd045c84d8a7aebfb381159aafb01170b01f7a5bca1260d5fbeaa200"
+    },
+    {
+      "path": "CSharpHarness/it/System.Windows.Forms.Primitives.resources.dll",
+      "sha256": "2ad3b80696be7b525674580e54d847d6d6a5f5b1fe95590531c576c526eb5730"
+    },
+    {
+      "path": "CSharpHarness/it/System.Windows.Forms.resources.dll",
+      "sha256": "eeb06a04e37a5afc6eb73c7786580b1c38b1a7ec904c282608a7f11924a82057"
+    },
+    {
+      "path": "CSharpHarness/ja/Microsoft.VisualBasic.Forms.resources.dll",
+      "sha256": "c6ca633d3970b0f9fd85bea5df2b92d6505f68398302390e9c1b72d1b499c218"
+    },
+    {
+      "path": "CSharpHarness/ja/System.Windows.Forms.Design.resources.dll",
+      "sha256": "abf9c849148266bc9d47c2a37891227fa76d7cd69a4196bb5c4506976ddcb97d"
+    },
+    {
+      "path": "CSharpHarness/ja/System.Windows.Forms.Primitives.resources.dll",
+      "sha256": "537a13461ce1ad6eefb51034c83521383064e1d8d8410bf23d36ce32147e3c74"
+    },
+    {
+      "path": "CSharpHarness/ja/System.Windows.Forms.resources.dll",
+      "sha256": "3d4fb3509d8a7c356c3a60f1a9de82d49a034a0cfe6ca6f36ae3319573d63a3a"
+    },
+    {
+      "path": "CSharpHarness/ko/Microsoft.VisualBasic.Forms.resources.dll",
+      "sha256": "2718c7d23c8be84b3893b281eafd951d3b467e14f84806497b603c85d37c5a14"
+    },
+    {
+      "path": "CSharpHarness/ko/System.Windows.Forms.Design.resources.dll",
+      "sha256": "2f271386bdbe25d45f1074efea49291c7b0b8f7e25d0f4e77c45f809f44c4e03"
+    },
+    {
+      "path": "CSharpHarness/ko/System.Windows.Forms.Primitives.resources.dll",
+      "sha256": "fff17edeef760ef028d38e31578d2ece3b494f8cfec41495ad76cadd9a0818ee"
+    },
+    {
+      "path": "CSharpHarness/ko/System.Windows.Forms.resources.dll",
+      "sha256": "d2dfbe0976c2f78bcbdef2dd537738c89c58da32dfc37a16ef27a9718fd94427"
+    },
+    {
+      "path": "CSharpHarness/licenses/microsoft.netcore.app.runtime.win-x64-LICENSE.txt",
+      "sha256": "d7a68596ab69b06f51ca278a6545148e4269a9381c26d597c13df5d88e08cf5b"
+    },
+    {
+      "path": "CSharpHarness/licenses/microsoft.netcore.app.runtime.win-x64-THIRD-PARTY-NOTICES.txt",
+      "sha256": "6d15e10a101c6bfff2ab4429ed061bf76c456fc4b23ad6b03e0d0f8377148a21"
+    },
+    {
+      "path": "CSharpHarness/licenses/microsoft.windowsdesktop.app.runtime.win-x64-LICENSE.txt",
+      "sha256": "a89886665765362eb77e0f8e26602c924520041d1711b2eedc136434fe4d01ab"
+    },
+    {
+      "path": "CSharpHarness/licenses/upstream-packages.json",
+      "sha256": "87ecc15d9d68bf0278939fb09afb9999f6d0d86a6516b450c4d26dadc60e1865"
+    },
+    {
+      "path": "CSharpHarness/Microsoft.CSharp.dll",
+      "sha256": "2000912f2fc52e0c64ed893d79f4e7b143502540fb7170b5ae5fcea7099ba431"
+    },
+    {
+      "path": "CSharpHarness/Microsoft.DiaSymReader.Native.amd64.dll",
+      "sha256": "70e4b89978ce57ef87b28f4921f3140c383b04aa96e7f3bdb3c4ebb898fd8a72"
+    },
+    {
+      "path": "CSharpHarness/Microsoft.VisualBasic.Core.dll",
+      "sha256": "2666b24eb6e295476b44abd057ea250fd5957db9c1c7adee6a223a747ddfe3d2"
+    },
+    {
+      "path": "CSharpHarness/Microsoft.VisualBasic.dll",
+      "sha256": "5d2b577ef50f89fa08d5e45b25092ef9e0d9dd0f0f45713a5c6a549f08cc1b64"
+    },
+    {
+      "path": "CSharpHarness/Microsoft.VisualBasic.Forms.dll",
+      "sha256": "ab4be826f49cbb92cbc1ba549ec52b85d42b40bcf2382e540ad75259bd2e01be"
+    },
+    {
+      "path": "CSharpHarness/Microsoft.Win32.Primitives.dll",
+      "sha256": "6c21472b0ae2f9b484a97614fad5485a22f18f9f19ee1adb9ceb3ed8ddb072d7"
+    },
+    {
+      "path": "CSharpHarness/Microsoft.Win32.Registry.AccessControl.dll",
+      "sha256": "521c91df5d6274066f353a0276ca648c2f006a5458a85691b7502ee3c637d257"
+    },
+    {
+      "path": "CSharpHarness/Microsoft.Win32.Registry.dll",
+      "sha256": "76849cfde4369f3ae93e28261fe5e1010dbf1332f7da95c98543cba9b03961c0"
+    },
+    {
+      "path": "CSharpHarness/Microsoft.Win32.SystemEvents.dll",
+      "sha256": "78eca75a0ddacdf6015f5414f9fee56a970f9f21b94b1c6a0e5dbb974ae8b48b"
+    },
+    {
+      "path": "CSharpHarness/mscordaccore.dll",
+      "sha256": "86c29a7b945525135de16c3dcb71e3b8517848c459cbb21395b352d4e6bba09c"
+    },
+    {
+      "path": "CSharpHarness/mscordaccore_amd64_amd64_10.0.1226.42308.dll",
+      "sha256": "86c29a7b945525135de16c3dcb71e3b8517848c459cbb21395b352d4e6bba09c"
+    },
+    {
+      "path": "CSharpHarness/mscordbi.dll",
+      "sha256": "753e92805f3886221f56dcfc07191ad7ee44235bf689db0490bdf777f25e9175"
+    },
+    {
+      "path": "CSharpHarness/mscorlib.dll",
+      "sha256": "b698595367a7d4fa57ccacab73751fde0bb8f2415345c62cdfe7ced890da2c0c"
+    },
+    {
+      "path": "CSharpHarness/mscorrc.dll",
+      "sha256": "f0d8c7491d4659a4c5a4c00615255a60e05634f311162c2775a51e03c070c9e0"
+    },
+    {
+      "path": "CSharpHarness/msquic.dll",
+      "sha256": "b7158d427b01c70483bb3d80c5211e387dd98e9471c8a70e4484d449de9157e8"
+    },
+    {
+      "path": "CSharpHarness/netstandard.dll",
+      "sha256": "3dc81dbc9dacd28261632c94410859eda24c2db50cd6c14309cbb2a434b50c57"
+    },
+    {
+      "path": "CSharpHarness/pl/Microsoft.VisualBasic.Forms.resources.dll",
+      "sha256": "f36a93e17c72b351ad3f4e9da72d26f666830acc444ff2f36395b337aade4e41"
+    },
+    {
+      "path": "CSharpHarness/pl/System.Windows.Forms.Design.resources.dll",
+      "sha256": "5456e3a15ea34dbcdb026386a2c67839c31e26df9b645b010506a2e1d4a3cdbb"
+    },
+    {
+      "path": "CSharpHarness/pl/System.Windows.Forms.Primitives.resources.dll",
+      "sha256": "fcd5dad889bb55d08dc914a7ea80bcf903e5d164d95bc11d8ec21cf02100d9a8"
+    },
+    {
+      "path": "CSharpHarness/pl/System.Windows.Forms.resources.dll",
+      "sha256": "c02b85b5e87e481192bcdfe1a3f0cc662acbe9701e6f69cb1455fe41e5eb197f"
+    },
+    {
+      "path": "CSharpHarness/pt-BR/Microsoft.VisualBasic.Forms.resources.dll",
+      "sha256": "37767ffebfaba1d552ed923e97b81d5ff68f917ae15a6afbcc94ab0152094a08"
+    },
+    {
+      "path": "CSharpHarness/pt-BR/System.Windows.Forms.Design.resources.dll",
+      "sha256": "37c014ef6808b0497f37c5e84a722b17bc90c05d054b94dcde7ed07e32b9cc96"
+    },
+    {
+      "path": "CSharpHarness/pt-BR/System.Windows.Forms.Primitives.resources.dll",
+      "sha256": "76fdcf7e927b3f02bbec253b06ea05bec5d9d206667a792b56e8a09ade757714"
+    },
+    {
+      "path": "CSharpHarness/pt-BR/System.Windows.Forms.resources.dll",
+      "sha256": "c15d6bbabbb67cd4567ec4816a3c09464ab26f4a73b803e15cc3516101470a9b"
+    },
+    {
+      "path": "CSharpHarness/ru/Microsoft.VisualBasic.Forms.resources.dll",
+      "sha256": "4789e8f4d56add4dcb025cdf91afb1ea37c894473cb80faa4104e3c43dd1b81b"
+    },
+    {
+      "path": "CSharpHarness/ru/System.Windows.Forms.Design.resources.dll",
+      "sha256": "ca737b53087faaed94b54a5b19495eb3734dfe174cf430ef3a898d5a34ad48ca"
+    },
+    {
+      "path": "CSharpHarness/ru/System.Windows.Forms.Primitives.resources.dll",
+      "sha256": "78eb2f9ea23b8d197ff8f0dd6cad970732fa7714043982abd49895281eaec71e"
+    },
+    {
+      "path": "CSharpHarness/ru/System.Windows.Forms.resources.dll",
+      "sha256": "e2afccdf4d43f0c316681e6569ac205fd22497eb781850c234d7dc3cc9e89728"
+    },
+    {
+      "path": "CSharpHarness/Source/.gitignore",
+      "sha256": "44ec3135726057daa214a866204ce50bdeff45ae71439dab8654c117d7eb4c3e"
+    },
+    {
+      "path": "CSharpHarness/Source/Build.cmd",
+      "sha256": "82cd8c3c793a5153cc60f3c7639375a436f84d18af505e17733e53a528792e0c"
+    },
+    {
+      "path": "CSharpHarness/Source/global.json",
+      "sha256": "e0c0882461e712f6c2c66241bf2f175c60832e3ff077dc26091ff8c661d4193e"
+    },
+    {
+      "path": "CSharpHarness/Source/HoloPlayer/Carrier.cs",
+      "sha256": "27e88f833d37dc74ea411a08acfbb1b7593460b20c5201aeb477c27b39f77cdf"
+    },
+    {
+      "path": "CSharpHarness/Source/HoloPlayer/Display.cs",
+      "sha256": "e8bf5ce0961a253ef4db9d6e91c1c0dc7f42cc7c6ad624fa10566e0b28d51b40"
+    },
+    {
+      "path": "CSharpHarness/Source/HoloPlayer/HoloPlayer.csproj",
+      "sha256": "d2d8f449a93f3fb923010194663167639c251ad15847eb2c4d94322d3abab652"
+    },
+    {
+      "path": "CSharpHarness/Source/HoloPlayer/ImagePreflight.cs",
+      "sha256": "073f17922da06ddc2b3bf02faea11de610f3761efb3a083d461165c8272f0e0f"
+    },
+    {
+      "path": "CSharpHarness/Source/HoloPlayer/Program.cs",
+      "sha256": "ddd50d68db2072e9f218142640c252c27da68b1bc79e09f50d97d6459c4c5f46"
+    },
+    {
+      "path": "CSharpHarness/Source/HoloPlayer/TrustedRuntime.cs",
+      "sha256": "3b7f6fac4b9ac29f2055775f549d51ecccda737057f1e36c214fbfae19813839"
+    },
+    {
+      "path": "CSharpHarness/Source/ImageRuntime/ImageRuntime.csproj",
+      "sha256": "d57713a1b4b04c184facca6b58a54bb3418ec6eb9b34e875d4f58e90a7202b45"
+    },
+    {
+      "path": "CSharpHarness/Source/ImageRuntime/Machine.cs",
+      "sha256": "73e8d6db742e4aebb0257d4a63b778e1cefa534f6c971e22789b4c5933166b6c"
+    },
+    {
+      "path": "CSharpHarness/System.AppContext.dll",
+      "sha256": "d9dd9fa44e019f27172d6b2662e2b6038f48c270912ac8aae53d4d909da7e9be"
+    },
+    {
+      "path": "CSharpHarness/System.Buffers.dll",
+      "sha256": "a1a35f5524e2f831d08ca55f702fbddcb8c6dfecd264f0f563d81a1c8b8280bd"
+    },
+    {
+      "path": "CSharpHarness/System.CodeDom.dll",
+      "sha256": "cb14dde18ee24339133094e40c8b6853819b1a0995558e4e820596e95c9c972d"
+    },
+    {
+      "path": "CSharpHarness/System.Collections.Concurrent.dll",
+      "sha256": "082f4bc0da1141eb65111b6da633d75624adfb7bb067d7ee90c5622c8b30885b"
+    },
+    {
+      "path": "CSharpHarness/System.Collections.dll",
+      "sha256": "df6f2037eabee28100184e92f7536427ba2f086c1110629804d466b124bc4d54"
+    },
+    {
+      "path": "CSharpHarness/System.Collections.Immutable.dll",
+      "sha256": "b527dd7b2beb82c22aa39787298cbeb33f3eac9eb9b83a0f0271353421db28db"
+    },
+    {
+      "path": "CSharpHarness/System.Collections.NonGeneric.dll",
+      "sha256": "aa4d5216d066c91cb489f63c6cbfcaf1f47b6e74e070db45639d3460454fc60b"
+    },
+    {
+      "path": "CSharpHarness/System.Collections.Specialized.dll",
+      "sha256": "e31af1f866e880844e027be59f545b9a6b34108e0b0680ebe3fbc19a53070819"
+    },
+    {
+      "path": "CSharpHarness/System.ComponentModel.Annotations.dll",
+      "sha256": "e3be2d35d81e6475c64110cfc099895b71df22c8b46a18c2d7c76a913b8ba903"
+    },
+    {
+      "path": "CSharpHarness/System.ComponentModel.DataAnnotations.dll",
+      "sha256": "d40e8c7062e6b9ce11ba83eab3d26be0eec8066b99970ea88b8e87fb75f411bd"
+    },
+    {
+      "path": "CSharpHarness/System.ComponentModel.dll",
+      "sha256": "e3b6f75864ee944898540937c1f300e04f44a1b2729516f0bbf948589a8b14b2"
+    },
+    {
+      "path": "CSharpHarness/System.ComponentModel.EventBasedAsync.dll",
+      "sha256": "cc84fe814ef5e58271d83193e328f8ec220efd4696d90af9a7c4690c10451495"
+    },
+    {
+      "path": "CSharpHarness/System.ComponentModel.Primitives.dll",
+      "sha256": "1e2451184c287409ea25acde3c90f25950bf34d16458a6e52a94ca4292434f62"
+    },
+    {
+      "path": "CSharpHarness/System.ComponentModel.TypeConverter.dll",
+      "sha256": "10dae312a6697718f8ce3dfcdb17d6ae4b74687c765d74d50de8a8e69e08f5e7"
+    },
+    {
+      "path": "CSharpHarness/System.Configuration.ConfigurationManager.dll",
+      "sha256": "a5a7e65996c3b6900f3254d23fe263fee25dc1d7466c26eb8e6e4e2ce3d29512"
+    },
+    {
+      "path": "CSharpHarness/System.Configuration.dll",
+      "sha256": "3952a72e1f18774f16952b46c20e80ed2bc601a06eca01f33fa924c738022a9c"
+    },
+    {
+      "path": "CSharpHarness/System.Console.dll",
+      "sha256": "3b85daf02a3d9ed99b84bb1c639fe8b1ced46d8d157fa56f525f6b8c5be43b3e"
+    },
+    {
+      "path": "CSharpHarness/System.Core.dll",
+      "sha256": "ac23faf1b37fa49f1b117baad951a65609e799a6e669a6df06d3552677e0c086"
+    },
+    {
+      "path": "CSharpHarness/System.Data.Common.dll",
+      "sha256": "66bdd62047ee460e2ce2c33d15dd1173ac97997b2745864a905179594f821acc"
+    },
+    {
+      "path": "CSharpHarness/System.Data.DataSetExtensions.dll",
+      "sha256": "aeeae0755c8c7f6747765cdf82fa43182e320e97f2035e3a0a19f21905e6c113"
+    },
+    {
+      "path": "CSharpHarness/System.Data.dll",
+      "sha256": "49f52958a2a6e461d0fd7a47e54a199eb263c69ecfcc0fc684b73b5918ebf466"
+    },
+    {
+      "path": "CSharpHarness/System.Design.dll",
+      "sha256": "e1a59a96224708e66c0bbe8af5b44ffeecd42d2c2d1a430860033d358940a778"
+    },
+    {
+      "path": "CSharpHarness/System.Diagnostics.Contracts.dll",
+      "sha256": "6c05cacd9b61b08ae75f2d783cc402b0b5fc848e3d68c29c10b93897cc083e8b"
+    },
+    {
+      "path": "CSharpHarness/System.Diagnostics.Debug.dll",
+      "sha256": "8b160ffe7518588bf64e13c01c6dcb2ef504d64f38bbf0f198d31e7b698db92c"
+    },
+    {
+      "path": "CSharpHarness/System.Diagnostics.DiagnosticSource.dll",
+      "sha256": "6267c1bd1bdf2bdd4b5748b885b0adcda10f18697adfea8488a19a009ad44fdb"
+    },
+    {
+      "path": "CSharpHarness/System.Diagnostics.EventLog.dll",
+      "sha256": "d79e654cf2b016e605d68911a70e52b9406d9d3fdbd416b8480400a4f3c90662"
+    },
+    {
+      "path": "CSharpHarness/System.Diagnostics.EventLog.Messages.dll",
+      "sha256": "8f3def30d41d85e2bd87b2d2e7542d49d625f0b4d96a6dc9b03e0f49bd59b8ef"
+    },
+    {
+      "path": "CSharpHarness/System.Diagnostics.FileVersionInfo.dll",
+      "sha256": "e94f158142e93834dec3100bde3313935517d549ff36c65819a06d3104dec427"
+    },
+    {
+      "path": "CSharpHarness/System.Diagnostics.PerformanceCounter.dll",
+      "sha256": "b2b1be898529665110d4f8a56088bb99e6667588a1e6796cfdbb2775289ef359"
+    },
+    {
+      "path": "CSharpHarness/System.Diagnostics.Process.dll",
+      "sha256": "51a57fbe918f8b68930c090792b718fc0850ea12da869d50b97a3796af29a740"
+    },
+    {
+      "path": "CSharpHarness/System.Diagnostics.StackTrace.dll",
+      "sha256": "8f6397c1e2ba9b8b8bfa317962151b5035049ce8d6b3575e5027a0d0eeacc797"
+    },
+    {
+      "path": "CSharpHarness/System.Diagnostics.TextWriterTraceListener.dll",
+      "sha256": "1bf165cee916a854e1150f489e4348ce94755359d5fcdcc0bc2bbbe6a7102bdd"
+    },
+    {
+      "path": "CSharpHarness/System.Diagnostics.Tools.dll",
+      "sha256": "841c5e2b6c171fa9aaff0fc6295f3fbc93dc5dcab44118b62f1c942bb674aff2"
+    },
+    {
+      "path": "CSharpHarness/System.Diagnostics.TraceSource.dll",
+      "sha256": "8445c7f1bbaae6cffde60e2c9a8753faaa5100255fbe31d0a1927d9d9bb7f194"
+    },
+    {
+      "path": "CSharpHarness/System.Diagnostics.Tracing.dll",
+      "sha256": "9563d5eec35f94d13a5e62eaa9535dbe0e9ea474f055da132fb8af46b0b01263"
+    },
+    {
+      "path": "CSharpHarness/System.DirectoryServices.dll",
+      "sha256": "2ababf530412e5034079a2ddf70bece0889ba9c77fa0a4ac1a2d64e7105369ef"
+    },
+    {
+      "path": "CSharpHarness/System.dll",
+      "sha256": "ef135f0bda0c41e142fdbd67b93e5aa7911916cb250f7df302f4151a3bbfa380"
+    },
+    {
+      "path": "CSharpHarness/System.Drawing.Common.dll",
+      "sha256": "2e4785b9ce61bb16c90b9be94894e61ae8672afdc137f1b0f4e64c1de8bd1639"
+    },
+    {
+      "path": "CSharpHarness/System.Drawing.Design.dll",
+      "sha256": "42c5a0055e328b59d9dcbf3d547e187c4c88921bfdb812f1a53c55f76041840b"
+    },
+    {
+      "path": "CSharpHarness/System.Drawing.dll",
+      "sha256": "a451e50a64762b53be66ce684db7888e261405a9e63da72460c2772d73be2483"
+    },
+    {
+      "path": "CSharpHarness/System.Drawing.Primitives.dll",
+      "sha256": "17585b32ca91bac8ccff2ef1c6ddf62ee9ea5efc552928c3a9d1b868394246e9"
+    },
+    {
+      "path": "CSharpHarness/System.Dynamic.Runtime.dll",
+      "sha256": "c0eac30c791db8c1a2b50b61c50d029f4ddd0eadfdd35433745001688a3e7466"
+    },
+    {
+      "path": "CSharpHarness/System.Formats.Asn1.dll",
+      "sha256": "a163fe5f96d1689f1bc1ac531b38c3aba95792ac7dd52231d325d658947fbcfd"
+    },
+    {
+      "path": "CSharpHarness/System.Formats.Nrbf.dll",
+      "sha256": "12fff18b2eb13a748d49d74542e63540ecd7a66ffb46514a9c03968363a07720"
+    },
+    {
+      "path": "CSharpHarness/System.Formats.Tar.dll",
+      "sha256": "44c9984f269a158915195fd32007f22c3bb692dcfeb933cda8ea45a3ac6cd1ce"
+    },
+    {
+      "path": "CSharpHarness/System.Globalization.Calendars.dll",
+      "sha256": "e0f3f3f6e4acc7b6755782fed5cb075ecf70beee4fc5d404579ae99bc0883ef2"
+    },
+    {
+      "path": "CSharpHarness/System.Globalization.dll",
+      "sha256": "66902cffd057673b4b77aa68faf80d33ffa4c94510e61db2a067943cc53b7702"
+    },
+    {
+      "path": "CSharpHarness/System.Globalization.Extensions.dll",
+      "sha256": "be0390557cc72078a7217cf94fd44b9ab66aa30838c00a92aa78c62469c44aa0"
+    },
+    {
+      "path": "CSharpHarness/System.IO.Compression.Brotli.dll",
+      "sha256": "0a59a95787ee15784d73079fdd5dc555b78659a6c560b6cbbf0d7452e638df89"
+    },
+    {
+      "path": "CSharpHarness/System.IO.Compression.dll",
+      "sha256": "c942747f84b730887090f5e0cf86d164c0ee402e524dce2750e06a6df48513fb"
+    },
+    {
+      "path": "CSharpHarness/System.IO.Compression.FileSystem.dll",
+      "sha256": "4aeec2c0189f73ba8122f05c0d759008ddae1a8873b167cc8a558d53f2af80e1"
+    },
+    {
+      "path": "CSharpHarness/System.IO.Compression.Native.dll",
+      "sha256": "4d174b78aa8b3516c7e3cec0355dfe9ae570894055c377d2e5565d077a9a7a1e"
+    },
+    {
+      "path": "CSharpHarness/System.IO.Compression.ZipFile.dll",
+      "sha256": "2da76eb281740be485b5637da8c60fe0ce12bc2848d1a1a81ce144fa74313e18"
+    },
+    {
+      "path": "CSharpHarness/System.IO.dll",
+      "sha256": "388400ccb189b819d6ec5f1ef70710a39641d93ed5b870fc9324866b75dfb78b"
+    },
+    {
+      "path": "CSharpHarness/System.IO.FileSystem.AccessControl.dll",
+      "sha256": "f7f9ed6cdab35274711e9345266784ec332ae8040db184d141c70e7941fbbec5"
+    },
+    {
+      "path": "CSharpHarness/System.IO.FileSystem.dll",
+      "sha256": "c251f33b29382c47b773d907463edd9fe978a06e39efd5670ef3b3b1d4f8c2b7"
+    },
+    {
+      "path": "CSharpHarness/System.IO.FileSystem.DriveInfo.dll",
+      "sha256": "0a7f3dd2fb6147a3fc046aeac8501d764effe5a3d8cfa56d2b244aa50b874b98"
+    },
+    {
+      "path": "CSharpHarness/System.IO.FileSystem.Primitives.dll",
+      "sha256": "d3b21b8b38e48c6b4d1cb5cfe9adfe4abad7b3353601febd3c7e4027f9ef9c6b"
+    },
+    {
+      "path": "CSharpHarness/System.IO.FileSystem.Watcher.dll",
+      "sha256": "8ab1704e4bd171056ec5a11e886d5199d05a641c6d0233c53d4766bf30328dd3"
+    },
+    {
+      "path": "CSharpHarness/System.IO.IsolatedStorage.dll",
+      "sha256": "2272a8bde18ed0e7c9e54ece9b849b9be76c90b978909d2b2fc94cf0ccbce427"
+    },
+    {
+      "path": "CSharpHarness/System.IO.MemoryMappedFiles.dll",
+      "sha256": "6e8b281ecb2f0f5e7aad3980f61d8812caa6b37884737f542f95410a76663e0e"
+    },
+    {
+      "path": "CSharpHarness/System.IO.Packaging.dll",
+      "sha256": "787feb238f47d039109c6ebdedb665efd4f443962636a5a12adf4a0cd0d440a6"
+    },
+    {
+      "path": "CSharpHarness/System.IO.Pipelines.dll",
+      "sha256": "ee9f0fd6c659f50799afd103c6ed9c5e408967e28dfa059bddf4b0a3fd2557dd"
+    },
+    {
+      "path": "CSharpHarness/System.IO.Pipes.AccessControl.dll",
+      "sha256": "1102f25a6e88f2fae81e4cd3628d8ef826f847b9c9b6a4d32ff8b37e0300da35"
+    },
+    {
+      "path": "CSharpHarness/System.IO.Pipes.dll",
+      "sha256": "3804f9992861122e60990b0765d0b50b33cdc2e4d89d26d9dbf8641d1d0134a2"
+    },
+    {
+      "path": "CSharpHarness/System.IO.UnmanagedMemoryStream.dll",
+      "sha256": "ad6a5f859589e1951103a00f45566da079cf87bd8b03f0c6ad985a6f39f19c5a"
+    },
+    {
+      "path": "CSharpHarness/System.Linq.AsyncEnumerable.dll",
+      "sha256": "925208e8ac40ac3f7b988aba6ccbbb58adac38ad1876a7d97ee137be6c21a653"
+    },
+    {
+      "path": "CSharpHarness/System.Linq.dll",
+      "sha256": "284d38945b6e92e847129bd28af458b19818d0f2181f79882888ab2003f4c519"
+    },
+    {
+      "path": "CSharpHarness/System.Linq.Expressions.dll",
+      "sha256": "8830f4a6a6982f53cfbb54f992858ee36b4994a6ff6e6078c39627e77bef282f"
+    },
+    {
+      "path": "CSharpHarness/System.Linq.Parallel.dll",
+      "sha256": "aa6068e3d8f6b2e492cc63dcaad6b02942edbae445cb2b88c24f1850b25c49f5"
+    },
+    {
+      "path": "CSharpHarness/System.Linq.Queryable.dll",
+      "sha256": "b3b3a9c1b87a51dacd46a3f9ec392c5d05e449152d44d6bd495df0994350e2fa"
+    },
+    {
+      "path": "CSharpHarness/System.Memory.dll",
+      "sha256": "f8f9d38efd6b0de30954d6bf1f353e9617bfb36d3d245c013a3b12be9f6bd88a"
+    },
+    {
+      "path": "CSharpHarness/System.Net.dll",
+      "sha256": "481b38c912f8779b3510cd00f079e45096ea22b6defdaab66780d5ac3ae6986a"
+    },
+    {
+      "path": "CSharpHarness/System.Net.Http.dll",
+      "sha256": "b98ed0cb80dd54c33fc049f33af5448710752155bbd5cc8cbcd932e01f066801"
+    },
+    {
+      "path": "CSharpHarness/System.Net.Http.Json.dll",
+      "sha256": "a9fe81ba3c048f9977e0099800eefd570a49be723c555725da57ba797c92b4e0"
+    },
+    {
+      "path": "CSharpHarness/System.Net.HttpListener.dll",
+      "sha256": "3dfe11fb30c5f84c911d9562be6c2037113cd8976ef2def3550ac415ae58955b"
+    },
+    {
+      "path": "CSharpHarness/System.Net.Mail.dll",
+      "sha256": "b585a55ee67c80d7f02a84d50d626d279c7aa77fd3e38206b434bd20c181eedc"
+    },
+    {
+      "path": "CSharpHarness/System.Net.NameResolution.dll",
+      "sha256": "e786c0940f5322f0ad6e8e34e7b582e5b050df0fb2230329325307e61bfd994c"
+    },
+    {
+      "path": "CSharpHarness/System.Net.NetworkInformation.dll",
+      "sha256": "7e8791833eb2d0aea77b119fed3cab8bf501f6a553155cc1c4e5b1c02f65593b"
+    },
+    {
+      "path": "CSharpHarness/System.Net.Ping.dll",
+      "sha256": "06bb307343db955a312634d00ba5e097cf5168a901284437592c28d780804e33"
+    },
+    {
+      "path": "CSharpHarness/System.Net.Primitives.dll",
+      "sha256": "4dbb41a178ef013a898327152eccd146228dd2eb83859b9bb36078333b41f0f1"
+    },
+    {
+      "path": "CSharpHarness/System.Net.Quic.dll",
+      "sha256": "af5b52cdee62d014af677c411530a3fde5c1c368adecb8f83dcfe9246e8bbe73"
+    },
+    {
+      "path": "CSharpHarness/System.Net.Requests.dll",
+      "sha256": "ed82d9d0b7942b2b02c5744a4591fbe2316879618adfc5660c9f111f814155f2"
+    },
+    {
+      "path": "CSharpHarness/System.Net.Security.dll",
+      "sha256": "a78bd713e807729f15b0e085c67fd6cbfefa85736a2618512d4ff1212759eba5"
+    },
+    {
+      "path": "CSharpHarness/System.Net.ServerSentEvents.dll",
+      "sha256": "c0b1944020d0e5688b90fba9f29209e367674e29d2020f700c302994d5417eda"
+    },
+    {
+      "path": "CSharpHarness/System.Net.ServicePoint.dll",
+      "sha256": "84fa83cd96e62fda02991b8a8e99fa1c7b3ac08807b04f7486a896cfe6b4a760"
+    },
+    {
+      "path": "CSharpHarness/System.Net.Sockets.dll",
+      "sha256": "645c56d637ce15976998119e50722a911315682ce141b4aab98874ce1b063f3a"
+    },
+    {
+      "path": "CSharpHarness/System.Net.WebClient.dll",
+      "sha256": "defa7bbf90c77ed01d6add53f678e4adfbcf97f3b1152affec06e652d327f1a2"
+    },
+    {
+      "path": "CSharpHarness/System.Net.WebHeaderCollection.dll",
+      "sha256": "74d66f776b4c15936a7b887f47ceb8bf277dbe82e71a78dd3ea5d02502b081e7"
+    },
+    {
+      "path": "CSharpHarness/System.Net.WebProxy.dll",
+      "sha256": "408e3daabb3f42b4f1b72a1e1def38f12ba58eb9d23dca620086819cf7484195"
+    },
+    {
+      "path": "CSharpHarness/System.Net.WebSockets.Client.dll",
+      "sha256": "f308a69b9ee1ac982f53d1d94374f4972a7e3c700742901ff7c2bbfb570019d2"
+    },
+    {
+      "path": "CSharpHarness/System.Net.WebSockets.dll",
+      "sha256": "c014a074d408c71011e26eac69be85003a852cfe115e8608bb5d4fd70536eb2e"
+    },
+    {
+      "path": "CSharpHarness/System.Numerics.dll",
+      "sha256": "35adc9360421b3b7a3d50399cb2c651c160158d7e8c302907acbce5f61f4a4f7"
+    },
+    {
+      "path": "CSharpHarness/System.Numerics.Vectors.dll",
+      "sha256": "a9a980ee33ed0c798a5e1960c4557521f465ac9e0987dfd2c3049d53b1f2fa5a"
+    },
+    {
+      "path": "CSharpHarness/System.ObjectModel.dll",
+      "sha256": "2179bb19f335b4fcacd0994ad2ccfdac6840deff09c7889debfe9dbb5b88a3e6"
+    },
+    {
+      "path": "CSharpHarness/System.Private.CoreLib.dll",
+      "sha256": "1125acc8106c43fc8bad2d203c4c4485df6182d292846c2fff415c1040c54678"
+    },
+    {
+      "path": "CSharpHarness/System.Private.DataContractSerialization.dll",
+      "sha256": "8c07a5333c4e938cad8ac8f24b5965121bc0622442a352cbe81c58f17c2349a8"
+    },
+    {
+      "path": "CSharpHarness/System.Private.Uri.dll",
+      "sha256": "b15c84d2120e1ec9612c66ba59bc3d7e67d841e2bce7b7d0478cb212537539b4"
+    },
+    {
+      "path": "CSharpHarness/System.Private.Windows.Core.dll",
+      "sha256": "1af707e6489ebe4847651b2820c858b77fe2c08995831678b4c631aea23e9978"
+    },
+    {
+      "path": "CSharpHarness/System.Private.Windows.GdiPlus.dll",
+      "sha256": "59efe4aecd13b14d210af5d5c3c372b67fe39e862485f9d5a8d213096741e5f7"
+    },
+    {
+      "path": "CSharpHarness/System.Private.Xml.dll",
+      "sha256": "d71e72a7a9de324352edd281a46466b51bd0bdd2831b1573f8d3bae8bd2dd4a6"
+    },
+    {
+      "path": "CSharpHarness/System.Private.Xml.Linq.dll",
+      "sha256": "c832b73de9783e6929ca5ff4863fc313e13ef7cfb5965c52587c4f77f6e037a7"
+    },
+    {
+      "path": "CSharpHarness/System.Reflection.DispatchProxy.dll",
+      "sha256": "bf93a361c0bba8497889c9f7713add5968ba39394f9e6bda27e86294c6c43560"
+    },
+    {
+      "path": "CSharpHarness/System.Reflection.dll",
+      "sha256": "95059346d6271dd6d0322cc321e5fb8cceab662f550c67aee7615059e41739bb"
+    },
+    {
+      "path": "CSharpHarness/System.Reflection.Emit.dll",
+      "sha256": "09059981bbeea0fdc5df589be5d7e3937d57e22bec4d78ceb492c587926fc238"
+    },
+    {
+      "path": "CSharpHarness/System.Reflection.Emit.ILGeneration.dll",
+      "sha256": "6b42ddd05b0ca1c7342d73ea9f401fe588044215d65c67b756deb780f0894a26"
+    },
+    {
+      "path": "CSharpHarness/System.Reflection.Emit.Lightweight.dll",
+      "sha256": "d2724a2b7b46146877ec1f6e400c49ea05f84bdd31f3bba52ae139ee68a4f779"
+    },
+    {
+      "path": "CSharpHarness/System.Reflection.Extensions.dll",
+      "sha256": "ceb1b81e1eb488d87bd43d16dc54450b2a78e0b653c44c988aae2a20abc162bc"
+    },
+    {
+      "path": "CSharpHarness/System.Reflection.Metadata.dll",
+      "sha256": "82973e772017944a0548e445f30757595d95fe99e1f5c4a446df8c4db04b1c18"
+    },
+    {
+      "path": "CSharpHarness/System.Reflection.Primitives.dll",
+      "sha256": "c2bbd885d03da5e880667c228ac1f56a5f3a72ea37d43f010ada000adc33da28"
+    },
+    {
+      "path": "CSharpHarness/System.Reflection.TypeExtensions.dll",
+      "sha256": "7cac73ed746ce05a4a2f1e61dd52d41322ecc6ba84cfec463380f49487031459"
+    },
+    {
+      "path": "CSharpHarness/System.Resources.Extensions.dll",
+      "sha256": "6a61ed68a8f54fa1db43004347674b266581ee109384559faaffcfbfa4a0553e"
+    },
+    {
+      "path": "CSharpHarness/System.Resources.Reader.dll",
+      "sha256": "20bdb5d302b5e28f6042c9f281cfa3ae2f2358544cc40783052fe5abf6aa859b"
+    },
+    {
+      "path": "CSharpHarness/System.Resources.ResourceManager.dll",
+      "sha256": "f709eb5cf16e26679782784c428825019785fcc7085562092425d4999bece03d"
+    },
+    {
+      "path": "CSharpHarness/System.Resources.Writer.dll",
+      "sha256": "684836486b9ba2817efa3099118860d259fd16db0c4c0533d42cad8c6c165b62"
+    },
+    {
+      "path": "CSharpHarness/System.Runtime.CompilerServices.Unsafe.dll",
+      "sha256": "6e685ec0477b21a688cd38bfcafc673888cdf186c99df3c96fab352e96d6fdc8"
+    },
+    {
+      "path": "CSharpHarness/System.Runtime.CompilerServices.VisualC.dll",
+      "sha256": "5fd85d3d7b47a921bdf48bf938c6615a49a4a3d493e1ea199f1b997c709618f4"
+    },
+    {
+      "path": "CSharpHarness/System.Runtime.dll",
+      "sha256": "76be53624f64b23d0249dfa0bbe85390086de7c44bfd490642ea86c6faaf44af"
+    },
+    {
+      "path": "CSharpHarness/System.Runtime.Extensions.dll",
+      "sha256": "3d7b517d4fd89ee58c53e0f642cc9be42e7a8669b51a85e861dafe118067cbfd"
+    },
+    {
+      "path": "CSharpHarness/System.Runtime.Handles.dll",
+      "sha256": "985457a3e6a67e96a445ee0fb69b2d58bcdadc4c964253fb63e2d5061a36b050"
+    },
+    {
+      "path": "CSharpHarness/System.Runtime.InteropServices.dll",
+      "sha256": "e5eb1679f3579c9141e2bb9dbdce62624a623f38d299805cc1de07bacd21841f"
+    },
+    {
+      "path": "CSharpHarness/System.Runtime.InteropServices.JavaScript.dll",
+      "sha256": "5ba32bcde2d72362db2d6e02763ece79fa35bc878b50493e956ce594307e997f"
+    },
+    {
+      "path": "CSharpHarness/System.Runtime.InteropServices.RuntimeInformation.dll",
+      "sha256": "c26d9f94329422bd000f28f6c65fdc162bf9397a6d29e418a189d4ca49c5c3ec"
+    },
+    {
+      "path": "CSharpHarness/System.Runtime.Intrinsics.dll",
+      "sha256": "b07694ec91f3a200acf0f8b37c6ce5fcf05126a9198ae156d839fa5ca8439dc5"
+    },
+    {
+      "path": "CSharpHarness/System.Runtime.Loader.dll",
+      "sha256": "9b9b2a4f0358d9146e76178ddb87d019be380c78baa7dac853493d45df089f03"
+    },
+    {
+      "path": "CSharpHarness/System.Runtime.Numerics.dll",
+      "sha256": "8ac94fb810c092a9297a903762e79a75ae07d7229d0721540c391f86d3d5d220"
+    },
+    {
+      "path": "CSharpHarness/System.Runtime.Serialization.dll",
+      "sha256": "d565fc261ca98cbd14833821f777860291e8a0f775de7aee91778a9f6647f6f4"
+    },
+    {
+      "path": "CSharpHarness/System.Runtime.Serialization.Formatters.dll",
+      "sha256": "5e8e957c6b7a63132555ede5bcf5fe6a59934c83300e28074ec6e9845ecdd17f"
+    },
+    {
+      "path": "CSharpHarness/System.Runtime.Serialization.Json.dll",
+      "sha256": "2fd71e3545dab4fc89b3fe54d13a1142f26a0cf187ebe375b3f7fa210fcb2596"
+    },
+    {
+      "path": "CSharpHarness/System.Runtime.Serialization.Primitives.dll",
+      "sha256": "f96093940e64d8eead98c86de9773d3c9d12c2b033bc6b1312ac88398303fdf3"
+    },
+    {
+      "path": "CSharpHarness/System.Runtime.Serialization.Xml.dll",
+      "sha256": "eedb66ea2cd1a26cc45a46d6631209ccbec959af82208872a93b3ae52f189222"
+    },
+    {
+      "path": "CSharpHarness/System.Security.AccessControl.dll",
+      "sha256": "cdc304f9ddb32023adb8db8953e56711c9b64462e4341d0b62e87ccd19dc7b10"
+    },
+    {
+      "path": "CSharpHarness/System.Security.Claims.dll",
+      "sha256": "c53c8a7e95d8296f951872fdd2e6334d11c20bffd4322f1a088773bf9dcaa3c2"
+    },
+    {
+      "path": "CSharpHarness/System.Security.Cryptography.Algorithms.dll",
+      "sha256": "eb99ae7dbe058a1b015aba6769ce1f65155b7ff51ff9a7203fcf6d7cdea5fef7"
+    },
+    {
+      "path": "CSharpHarness/System.Security.Cryptography.Cng.dll",
+      "sha256": "7319f97896d92a7d0729cf28dc6c4d1f797c1520b656ee01a780eec726ec2c16"
+    },
+    {
+      "path": "CSharpHarness/System.Security.Cryptography.Csp.dll",
+      "sha256": "4002af141e9cb29875b677841adf64a9681e5672c2595492dcbc161460d4e121"
+    },
+    {
+      "path": "CSharpHarness/System.Security.Cryptography.dll",
+      "sha256": "e0a839a540e47343b53a936b32d91599a3470005228d50fd0b896f8bbdcc65b0"
+    },
+    {
+      "path": "CSharpHarness/System.Security.Cryptography.Encoding.dll",
+      "sha256": "994494aec7760f40fade2264aa7c13eebae36360f0b1399a7134bb19c9d58fda"
+    },
+    {
+      "path": "CSharpHarness/System.Security.Cryptography.OpenSsl.dll",
+      "sha256": "1a8902bbad1b577a98bec62a8472105dc1e9a253e390f69fbe3d167e93206968"
+    },
+    {
+      "path": "CSharpHarness/System.Security.Cryptography.Pkcs.dll",
+      "sha256": "b9e94f44acdf9d748cd79e7a5d02664a7f96c0dc098fa58ae3326bd3b874661e"
+    },
+    {
+      "path": "CSharpHarness/System.Security.Cryptography.Primitives.dll",
+      "sha256": "194cccea9354bb248e44c954b5373f9069163f8f21524b3ee4b3185fe436bc15"
+    },
+    {
+      "path": "CSharpHarness/System.Security.Cryptography.ProtectedData.dll",
+      "sha256": "64b138ec078e4313c08fd3ea46e54e2e51fdcd84ece938fcb4685d08547f84d6"
+    },
+    {
+      "path": "CSharpHarness/System.Security.Cryptography.X509Certificates.dll",
+      "sha256": "7439c3b90bc2ee49a9275b28ed29052b4d48b45999ac1b7d25593033b1bb8dd6"
+    },
+    {
+      "path": "CSharpHarness/System.Security.Cryptography.Xml.dll",
+      "sha256": "d2d7c9bd3bb10b0f8ff7df689f83cb34f9574c5ad4887de85b768d3d826b07d5"
+    },
+    {
+      "path": "CSharpHarness/System.Security.dll",
+      "sha256": "d8efd304765e859369698efef9b3ca707defa8e142721fe5605d7a2de7d38375"
+    },
+    {
+      "path": "CSharpHarness/System.Security.Permissions.dll",
+      "sha256": "61bc8e050d610a808bec07e3179f6a07d3bb195f87a5a70fce2f6cdf96a9dc02"
+    },
+    {
+      "path": "CSharpHarness/System.Security.Principal.dll",
+      "sha256": "1d3e351058be3a33214b23b308fe57f78cd6fd4d8fad448fc84cbbe7376129f9"
+    },
+    {
+      "path": "CSharpHarness/System.Security.Principal.Windows.dll",
+      "sha256": "2311a3f92971de918943573dfb66e04e25c1d543663951eb24e8eb1a0dcd4251"
+    },
+    {
+      "path": "CSharpHarness/System.Security.SecureString.dll",
+      "sha256": "73aac97072b7deefa4de9647bf822162224f1452ad467841b989ff89d4d94595"
+    },
+    {
+      "path": "CSharpHarness/System.ServiceModel.Web.dll",
+      "sha256": "ce91013ee3a9a9d69a85e258f7749e6ece488295d7cb66f7c1079f2e8678fc5e"
+    },
+    {
+      "path": "CSharpHarness/System.ServiceProcess.dll",
+      "sha256": "63fc498c9d04e3c4345dfdb8016ad0639d54562dd7d8c707c072792c854df944"
+    },
+    {
+      "path": "CSharpHarness/System.Text.Encoding.CodePages.dll",
+      "sha256": "226e216e33c94ef7594bdffe670ba4dc5907151c113cb41ac9e9d570227e1765"
+    },
+    {
+      "path": "CSharpHarness/System.Text.Encoding.dll",
+      "sha256": "5e347db6b4f9b2746d50e1ac85be2d9cc7dc4038fde98ac4295bc7030c83cda9"
+    },
+    {
+      "path": "CSharpHarness/System.Text.Encoding.Extensions.dll",
+      "sha256": "8f51b9535db64fe027a40d6076200b1a6b0889bf05f62bb8e68c3eb083c7f113"
+    },
+    {
+      "path": "CSharpHarness/System.Text.Encodings.Web.dll",
+      "sha256": "d20431f20d992e71a4e82e5f25c822474e2f4097d8527972d3d78ea1f26e47c3"
+    },
+    {
+      "path": "CSharpHarness/System.Text.Json.dll",
+      "sha256": "fa99f413be21ed5f484a09093fe5f0beba7de3062cf9cc9f847dbf8108dba55a"
+    },
+    {
+      "path": "CSharpHarness/System.Text.RegularExpressions.dll",
+      "sha256": "060bcc88a688e687ff1404b83b5fb5cf17e19ec57f33d5b8a48ab494da83c134"
+    },
+    {
+      "path": "CSharpHarness/System.Threading.AccessControl.dll",
+      "sha256": "66d618b5522b3e4f7a3c7f2bd872fc378fa6f9bbdca3636854eb1a8cb948e631"
+    },
+    {
+      "path": "CSharpHarness/System.Threading.Channels.dll",
+      "sha256": "afc5deb3c32b3f64bced2025d0b01b316d41b691ebc6ccb1a2ec445ad4c15e39"
+    },
+    {
+      "path": "CSharpHarness/System.Threading.dll",
+      "sha256": "6c32ed1bf8067e4169e8feddd15e6489b89d19d1c7aae1520a551b57745d0a60"
+    },
+    {
+      "path": "CSharpHarness/System.Threading.Overlapped.dll",
+      "sha256": "89fde15f8e520c4bcbc6cbfdceba2baed8670cdf52399a4cd7a21c6efb276c1a"
+    },
+    {
+      "path": "CSharpHarness/System.Threading.Tasks.Dataflow.dll",
+      "sha256": "a895b0c73d3a1afc4d89c1d9e445ed447af12864c25aad2c4cb7398ff50aa934"
+    },
+    {
+      "path": "CSharpHarness/System.Threading.Tasks.dll",
+      "sha256": "f80b21f7dae04377b73945456cabe25e2ab1f4b564095aed546c2aa571644567"
+    },
+    {
+      "path": "CSharpHarness/System.Threading.Tasks.Extensions.dll",
+      "sha256": "f148e3a1414b7c2763ae21529ad79ad759f7cfd3c885256b64b0d2209dec2613"
+    },
+    {
+      "path": "CSharpHarness/System.Threading.Tasks.Parallel.dll",
+      "sha256": "6fa359bdbebb56be96339f244ed41658afcead5e010074da470df1115d1e7699"
+    },
+    {
+      "path": "CSharpHarness/System.Threading.Thread.dll",
+      "sha256": "ce71949bb1ea67b686e799128582015ebf8758f1107e59e43f342ece3f662930"
+    },
+    {
+      "path": "CSharpHarness/System.Threading.ThreadPool.dll",
+      "sha256": "58fbc6c4b9c72087152fd0f0670a527098c00b0c19ba8d0979d3ca5ce07c6936"
+    },
+    {
+      "path": "CSharpHarness/System.Threading.Timer.dll",
+      "sha256": "9e4620846572f49aeb476aa99405071b4bbd0df4323e4e232787ed73642b1ee5"
+    },
+    {
+      "path": "CSharpHarness/System.Transactions.dll",
+      "sha256": "56abfca0350c111d077b3d86a2469ea3da4fccc1871f7c51a8b4fdb664bb0ede"
+    },
+    {
+      "path": "CSharpHarness/System.Transactions.Local.dll",
+      "sha256": "8d0283a311a16333ffb6f966d9765e4d8b866777ad99291a93b30db349a15bc4"
+    },
+    {
+      "path": "CSharpHarness/System.ValueTuple.dll",
+      "sha256": "07a5347f6a597e5e0d72109efa1a525697e8c3f74fb0029005500f8ebbf9187a"
+    },
+    {
+      "path": "CSharpHarness/System.Web.dll",
+      "sha256": "bc260b3db247ad9a6e4a82a275da85c3691a41272cc745cb7eaefcf1f31cc817"
+    },
+    {
+      "path": "CSharpHarness/System.Web.HttpUtility.dll",
+      "sha256": "2cedef51b0a2c2b84240583339ecf2422c650e3388aa46f3494160b93b673887"
+    },
+    {
+      "path": "CSharpHarness/System.Windows.dll",
+      "sha256": "716eee98ceee87d38f0b301224462f8442aa793f4b1b9c3ffac315753320ab37"
+    },
+    {
+      "path": "CSharpHarness/System.Windows.Extensions.dll",
+      "sha256": "265c3db543caa843d108d9cd4679908900ca5df9958e989462ae65ae18ed8b90"
+    },
+    {
+      "path": "CSharpHarness/System.Windows.Forms.Design.dll",
+      "sha256": "4dc904431a32c5368b00708c6162f56c937ac2cdd7facfdec1d169b66ae8277d"
+    },
+    {
+      "path": "CSharpHarness/System.Windows.Forms.Design.Editors.dll",
+      "sha256": "68cc0922bb12f17870f70fd559bd6e412da672a06fb0232b97bc12f5468c8966"
+    },
+    {
+      "path": "CSharpHarness/System.Windows.Forms.dll",
+      "sha256": "28cbefb565c6b19998bff06ef568389c53bd2c00b2d437d1b1995f73d4aad7e4"
+    },
+    {
+      "path": "CSharpHarness/System.Windows.Forms.Primitives.dll",
+      "sha256": "3eca2d3db1960ee9b2a86fb40489a185f51be55e722584f667a631e6a7ef82e1"
+    },
+    {
+      "path": "CSharpHarness/System.Xml.dll",
+      "sha256": "277a84ba155fe7808a514f32694a8157ec9f0eeeef00ef9643e5250004054ff0"
+    },
+    {
+      "path": "CSharpHarness/System.Xml.Linq.dll",
+      "sha256": "ae04903b25717fa4695e7e63489091f0d461e791e0bd264c6c85250d668f540d"
+    },
+    {
+      "path": "CSharpHarness/System.Xml.ReaderWriter.dll",
+      "sha256": "8e48fed4d12bcffff01e8059caafb564697275797d2f5ec6823fdd82b87fe938"
+    },
+    {
+      "path": "CSharpHarness/System.Xml.Serialization.dll",
+      "sha256": "489694401c60905cb6dca8ef0bf738cb609cd45b337126a01c825b913086ba43"
+    },
+    {
+      "path": "CSharpHarness/System.Xml.XDocument.dll",
+      "sha256": "3ff858607de5146051498a7124ef983bea280d86e165f993516c6c26af81cfb5"
+    },
+    {
+      "path": "CSharpHarness/System.Xml.XmlDocument.dll",
+      "sha256": "a50b9b3a03596e36e73e7a7d54f4d018e8dcfaa7fe79e8cf900af8838ef3ec36"
+    },
+    {
+      "path": "CSharpHarness/System.Xml.XmlSerializer.dll",
+      "sha256": "0b7d057c2b5b2272e8d4096a755edfd96f3cf03ab9aaa3fef54b462bf48d517e"
+    },
+    {
+      "path": "CSharpHarness/System.Xml.XPath.dll",
+      "sha256": "c817b11c58d95fa942fbc62a4cfa8219e16dafa5641eb004cb2be424028ed5d8"
+    },
+    {
+      "path": "CSharpHarness/System.Xml.XPath.XDocument.dll",
+      "sha256": "5bcd27a7e93515b745993f6dda51391033883cb8a1a8a2e3dad5caed3548f0da"
+    },
+    {
+      "path": "CSharpHarness/THIRD_PARTY_NOTICES.txt",
+      "sha256": "9e735a6fd15223662dc9d60b90c27f5e43ef4e6d8088431bcb28b0f17f0c8e8a"
+    },
+    {
+      "path": "CSharpHarness/tr/Microsoft.VisualBasic.Forms.resources.dll",
+      "sha256": "216e772d8e74d81caa094d3f490198104ca60eab5e21ffea5f257c011e8669ec"
+    },
+    {
+      "path": "CSharpHarness/tr/System.Windows.Forms.Design.resources.dll",
+      "sha256": "37666bb07bf2c32fd434590116cdfd2185690a230b33bb586587d63e2c06df8b"
+    },
+    {
+      "path": "CSharpHarness/tr/System.Windows.Forms.Primitives.resources.dll",
+      "sha256": "7c5476317f3dc48b54e11bd6948a8bd05d3d6e4ca3c539879c1446aa7a822e8c"
+    },
+    {
+      "path": "CSharpHarness/tr/System.Windows.Forms.resources.dll",
+      "sha256": "c4df18ff62ae4f988273a2958729e6f34557efcd44b36b170973724b06e5393e"
+    },
+    {
+      "path": "CSharpHarness/WindowsBase.dll",
+      "sha256": "0ec46a38f29a234b9a4d0ae9364c8322f661a47c831c5b948f2787b7ca12dbbd"
+    },
+    {
+      "path": "CSharpHarness/zh-Hans/Microsoft.VisualBasic.Forms.resources.dll",
+      "sha256": "d725a282cb64c6d1358841ef3e9f238139f813e5e819fa3ed9b127a73c38be07"
+    },
+    {
+      "path": "CSharpHarness/zh-Hans/System.Windows.Forms.Design.resources.dll",
+      "sha256": "d5d636cc6f0b46638364f2d8bc6c9b568876eb937ab4c8289e80d87725389158"
+    },
+    {
+      "path": "CSharpHarness/zh-Hans/System.Windows.Forms.Primitives.resources.dll",
+      "sha256": "ba5886217d977d1cbea50dbbd88f34f253764eb5629819da015533fc76e1709b"
+    },
+    {
+      "path": "CSharpHarness/zh-Hans/System.Windows.Forms.resources.dll",
+      "sha256": "669bb74fb2d266c5670a655c37c0fb8e0df7efe4c1ada06649fd8ab61a3b8a8b"
+    },
+    {
+      "path": "CSharpHarness/zh-Hant/Microsoft.VisualBasic.Forms.resources.dll",
+      "sha256": "ec1789159dd998d7cbb68d161b4368c547e475506b6a55ecbf1f2d475f3ce622"
+    },
+    {
+      "path": "CSharpHarness/zh-Hant/System.Windows.Forms.Design.resources.dll",
+      "sha256": "2f2c62407836658acf8951b22e620c352c60885b9926b94263995ed05b278985"
+    },
+    {
+      "path": "CSharpHarness/zh-Hant/System.Windows.Forms.Primitives.resources.dll",
+      "sha256": "1835a2dc5603e32ce1c3c264e62fafcedd2ea48e10f940d0d068ffb7c41a4ba0"
+    },
+    {
+      "path": "CSharpHarness/zh-Hant/System.Windows.Forms.resources.dll",
+      "sha256": "8bceaabce46062b7baf81a4649b886f734b7ae83bb61a7d29f920e151a4223e2"
+    },
+    {
+      "path": "game.gif",
+      "sha256": "379160c1a795f3b16fcb36e0993b4b34abb0148354abface62e596ee02f997c8"
+    },
+    {
+      "path": "game.tiff",
+      "sha256": "9082b5255871420e43c3dcd9ecfe10a8b461c14a5a009f0a6fc2a548f0d40dcf"
+    },
+    {
+      "path": "LICENSE",
+      "sha256": "230184f60bae2feaf244f10a8bac053c8ff33a183bcc365b4d8b876d2b7f4809"
+    },
+    {
+      "path": "Play.cmd",
+      "sha256": "948a4c3c16e50a3134c8a16a62bba8b404d8ae352114ecaec9a53c27a5f13f50"
+    },
+    {
+      "path": "README.md",
+      "sha256": "44d7741d19f9df441b32858470da304316189578db44c26de4e6ee04ff6de960"
+    }
+  ],
+  "source_rebuild": "C# interpreter and self-contained host rebuilt with SDK 10.0.401, no Python; approved runtime hash matched"
+}
